@@ -34,3 +34,5 @@ schrodinger-crank-nicolson/
     └── compphys_tekst.pdf
 
 ```
+
+![](figures/slider.gif)
