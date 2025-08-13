@@ -126,22 +126,13 @@ $$
 
 $k_i = \sqrt{\frac{2m(E-V_i)}{\hbar^2}}$
 
----
 
-## 2. Results & Plots
+## Results & Plots
 
-All results are stored in `figures/`:
-
-- **Infinite Well Gaussian Packet**
-  - `inf_gauss_8k_steps.png`, `inf_gauss_50k_steps.png`, `inf_gauss_500k_steps.png`
-- **Eigenstates**
-  - `inf_eigen_real.png`, `inf_eigen_imag.png`, etc.
-- **Step Potential**
-  - `step_pot_ref1.png`, `step_pot_ref2.png`, `step_pot_trans1.png`, `step_pot_trans2.png`, `step_pot_theory.png`
+All results are stored in `figures/`.
 
 Key observations:
 - Gaussian packet broadens over time due to numerical effects
 - Eigenstate oscillations match theoretical predictions
 - Step potential reflection/transmission agree well with theory for small time steps
 
----
