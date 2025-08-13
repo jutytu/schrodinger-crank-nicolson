@@ -23,7 +23,7 @@ schrodinger-crank-nicolson/
 │   ├── inf_well_stationary.py
 │   ├── step_potential_gauss.py
 │
-├── figures/               # All generated plots & gifs
+├── figures/               # All generated plots and gifs
 │
 ├── docs/                  # Additional documentation
     └── compphys_tekst.pdf
