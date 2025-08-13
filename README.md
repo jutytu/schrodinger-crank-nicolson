@@ -130,6 +130,9 @@ $k_i = \sqrt{\frac{2m(E-V_i)}{\hbar^2}}$
 |---|---|
 | ![](figures/step_pot_refl1.png) | ![](figures/step_pot_refl2.png) |
 
+| $E > V_0$ before going through potential step | $E > V_0$ after going through potential step |
+|---|---|
+| ![](figures/step_pot_trans1.png) | ![](figures/step_pot_trans2.png) |
 
 
 ## Results & Plots
