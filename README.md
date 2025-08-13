@@ -31,52 +31,61 @@ schrodinger-crank-nicolson/
 ```
 
 
-## 1. Theory
+## Theory
 
-### 1.1 Schrödinger Equation
+### Schrödinger Equation
 
 We study the time-dependent Schrödinger equation in 1D:
 
-\[
+$$
 i \hbar \frac{\partial \psi(x,t)}{\partial t} = -\frac{\hbar^2}{2m} \frac{\partial^2 \psi(x,t)}{\partial x^2} + V(x) \psi(x,t)
-\]
+$$
 
 ---
 
-### 1.2 Crank–Nicolson Method
+### Crank–Nicolson Method
 
 The Crank–Nicolson scheme is obtained by averaging the explicit and implicit finite-difference schemes:
 
-\[
+$$
 \frac{\psi^{n+1} - \psi^n}{\Delta t} = \frac{1}{2} \hat{H} (\psi^{n+1} + \psi^n)
-\]
+$$
 
 which leads to the matrix equation:
 
-\[
+$$
 A \psi^{n+1} = B \psi^n
-\]
+$$
 
-- **Unconditionally stable**
-- **Second-order accurate in time and space**
-- **Low numerical diffusion**
+- Unconditionally stable
+- Second-order accurate in time and space
+- Low numerical diffusion
 
 ---
 
-### 1.3 Infinite Potential Well – Gaussian Packet
+*For full analysis, please check [this file](docs/compphys_tekst.pdf).*
+
+---
+
+### Infinite Potential Well – Gaussian Packet
 
 Initial wave function:
 
-\[
+$$
 \psi(x,0) = e^{-\frac{(x-x_0)^2}{2\sigma^2}} e^{ikx}
-\]
+$$
 
 Observations:
 - Wave packet bounces between walls
 - Modulus conserved for short times
 - Long-term: numerical diffusion causes packet broadening
+- Broadening reduced by using smaller timesteps
 
----
+| Packet at 50k and 80k timesteps | Packet at 500k and 800k timesteps, 10x smaller timestep |
+|---|---|
+| ![](figures/inf_gauss_50k_steps.png) | ![](figures/inf_gauss_500k_steps.png) |
+
+
 
 ### 1.4 Infinite Well – Eigenstates
 
