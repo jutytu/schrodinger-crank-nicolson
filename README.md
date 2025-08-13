@@ -41,7 +41,7 @@ $$
 i \hbar \frac{\partial \psi(x,t)}{\partial t} = -\frac{\hbar^2}{2m} \frac{\partial^2 \psi(x,t)}{\partial x^2} + V(x) \psi(x,t)
 $$
 
----
+
 
 ### Crank–Nicolson Method
 
@@ -86,26 +86,26 @@ Observations:
 | ![](figures/inf_gauss_50k_steps.png) | ![](figures/inf_gauss_500k_steps.png) |
 
 
-
-### 1.4 Infinite Well – Eigenstates
+### Infinite Potential Well – Eigenstates
 
 Eigenfunctions:
 
-\[
+$$
 \psi_n(x) = \sqrt{\frac{2}{L}} \sin \left( \frac{n \pi x}{L} \right)
-\]
-\[
+$$
+$$
 E_n = \frac{n^2 \pi^2 \hbar^2}{2mL^2}
-\]
+$$
 
 We verify:
 - Modulus remains constant
 - Real & imaginary parts oscillate with expected frequency:
-\[
-\omega_n = \frac{E_n}{\hbar}
-\]
+$$\omega_n = \frac{E_n}{\hbar}$$
 
----
+| Imaginary part for n=10 | Imaginary part at time expected at phase $$21\pi/2$$ |
+|---|---|
+| ![](figures/inf_eigen_n10_imag.png) | ![](figures/inf_eigen_imag_21pi2.png) |
+
 
 ### 1.5 Step Potential
 
