@@ -102,28 +102,29 @@ We verify:
 - Real & imaginary parts oscillate with expected frequency:
 $$\omega_n = \frac{E_n}{\hbar}$$
 
-| Imaginary part for n=10 | Imaginary part at time expected at phase $$21\pi/2$$ |
+| Imaginary part for n=10 | Imaginary part at time expected at phase $$\frac{21\pi}{2}$$ |
 |---|---|
 | ![](figures/inf_eigen_n10_imag.png) | ![](figures/inf_eigen_imag_21pi2.png) |
 
 
-### 1.5 Step Potential
+### Step Potential
 
 Potential:
-\[
-V(x) =
+
+$$V(x) =
 \begin{cases}
 0 & x < x_0 \\
 V_0 & x \ge x_0
-\end{cases}
-\]
+\end{cases}$$
 
 Classical transmission and reflection:
-For \(E > V_0\):
-\[
+For $$E > V_0$$:
+
+$$
 T = \frac{4k_1 k_2}{(k_1+k_2)^2}, \quad R = \frac{(k_1-k_2)^2}{(k_1+k_2)^2}
-\]
-with \( k_i = \sqrt{\frac{2m(E-V_i)}{\hbar^2}} \).
+$$
+
+$k_i = \sqrt{\frac{2m(E-V_i)}{\hbar^2}}$
 
 ---
 
