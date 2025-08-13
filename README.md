@@ -6,7 +6,7 @@ The focus is on numerical solutions of the time-dependent Schrödinger equation 
 - Infinite potential well (Gaussian packets & eigenstates)
 - Step potential (transmission and reflection probabilities)
 
-![](figures/slider.gif)
+![](figures/psi_slider.gif)
 
 
 ## Repository structure
