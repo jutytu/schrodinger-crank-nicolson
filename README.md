@@ -135,7 +135,7 @@ $k_i = \sqrt{\frac{2m(E-V_i)}{\hbar^2}}$
 | ![](figures/step_pot_trans1.png) | ![](figures/step_pot_trans2.png) |
 
 
-## Results & Plots
+## Results and plots
 
 All results are stored in `figures/`.
 
